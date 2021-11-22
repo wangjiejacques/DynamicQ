@@ -5,7 +5,7 @@ public struct ClassA {
     public init() {
     }
     
-    public func request() {
-        print("Hello \(Message.self)")
+    public func request() -> String {
+        return "Hello \(Message.self)"
     }
 }
